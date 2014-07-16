@@ -1,6 +1,6 @@
 {
 
-    "name": "960",
+    "name": "fe-960",
     "authors": [
    
         "Stephen Rance"
@@ -40,7 +40,7 @@
 
     "install" : {
 
-        "_960.scss" : "httpdocs/assets/sass/layout"
+        "/sass/layout/_960.scss" : "httpdocs/assets/sass/layout"
 
     }
 
