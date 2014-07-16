@@ -8,7 +8,7 @@
     ],
 
     "description": "Simple 960 Responsive Grid",
-    "main": "960.scss",
+    "main": "_960.scss",
     "repository": {
 
         "type" : "git",
