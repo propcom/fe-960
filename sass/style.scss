@@ -1,0 +1,35 @@
+/* ====================
+
+Stephen Rance
+Written for 960 Grid
+
+==================== */
+
+
+
+/* 960
+==================== */
+
+@import "layout/_960";
+
+
+
+/* Demo
+==================== */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container__bg {
+  background: url(../img/960.jpg) repeat-y center;
+  background-size: 100%;
+  float: left;
+  width: 100%;
+}
+
+.col {
+  background: #000;
+  height: 20px;
+}

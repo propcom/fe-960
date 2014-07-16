@@ -1,0 +1,178 @@
+/* ====================
+
+Stephen Rance
+Written for 960 Grid
+
+==================== */
+/* 960
+==================== */
+/* ====================
+
+Author:
+  Stephen Rance
+
+Contents:
+  01. Box Sizing
+  02. 960 Grid
+  03. Clearing
+  04. Media Queries
+
+==================== */
+/* 01. Box Sizing
+==================== */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* 02. 960 Grid
+==================== */
+/* container */
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 960px; }
+
+/* columns and rows */
+.col {
+  float: left;
+  margin-right: 2.127659574468085%; }
+
+.col--1 {
+  width: 6.382978723404255%; }
+
+.col--2 {
+  width: 14.893617021276595%; }
+
+.col--3 {
+  width: 23.404255319148938%; }
+
+.col--4 {
+  width: 31.914893617021278%; }
+
+.col--5 {
+  width: 40.42553191489361%; }
+
+.col--6 {
+  width: 48.93617021276596%; }
+
+.col--7 {
+  width: 57.446808510638306%; }
+
+.col--8 {
+  width: 65.95744680851064%; }
+
+.col--9 {
+  width: 74.46808510638297%; }
+
+.col--10 {
+  width: 82.97872340425532%; }
+
+.col--11 {
+  width: 91.48936170212765%; }
+
+.col--12 {
+  width: 100%; }
+
+.col--12,
+.col--omega {
+  margin-right: 0; }
+
+.col--row {
+  clear: both;
+  margin-bottom: 20px; }
+
+/* offsets */
+.col--off-1 {
+  margin-left: 8.51063829787234%; }
+
+.col--off-2 {
+  margin-left: 17.02127659574468%; }
+
+.col--off-3 {
+  margin-left: 25.53191489361702%; }
+
+.col--off-4 {
+  margin-left: 34.04255319148936%; }
+
+.col--off-5 {
+  margin-left: 42.5531914893617%; }
+
+.col--off-6 {
+  margin-left: 51.06382978723404%; }
+
+.col--off-7 {
+  margin-left: 59.57446808510638%; }
+
+.col--off-8 {
+  margin-left: 68.08510638297872%; }
+
+.col--off-9 {
+  margin-left: 76.59574468085107%; }
+
+.col--off-10 {
+  margin-left: 85.1063829787234%; }
+
+.col--off-11 {
+  margin-left: 93.61702127659575%; }
+
+/* 03. Clearing
+==================== */
+.container:before,
+.container:after,
+.col--row:before,
+.col--row:after {
+  content: " ";
+  display: table; }
+
+.container:after,
+.col--row:after {
+  clear: both; }
+
+/* 04. Media Queries
+==================== */
+/* columns and offsets */
+@media only screen and (max-width: 480px) {
+  .col,
+  .col--off-1,
+  .col--off-2,
+  .col--off-3,
+  .col--off-4,
+  .col--off-5,
+  .col--off-6,
+  .col--off-7,
+  .col--off-8,
+  .col--off-9,
+  .col--off-10,
+  .col--off-11 {
+    margin-left: 0; }
+
+  .col--1,
+  .col--2,
+  .col--3,
+  .col--4,
+  .col--5,
+  .col--6,
+  .col--7,
+  .col--8,
+  .col--9,
+  .col--10,
+  .col--11 {
+    width: 100%; } }
+/* Demo
+==================== */
+* {
+  margin: 0;
+  padding: 0; }
+
+.container__bg {
+  background: url(../img/960.jpg) repeat-y center;
+  background-size: 100%;
+  float: left;
+  width: 100%; }
+
+.col {
+  background: #000;
+  height: 20px; }
